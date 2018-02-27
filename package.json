@@ -1,7 +1,7 @@
 {
-  "name": "jade-demo-project",
+  "name": "hbs-demo-project",
   "version": "1.0.0",
-  "description": "jade nodejs demo",
+  "description": "handlebars nodejs demo",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^5.0.0",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
     "git": "^0.1.5",
     "heroku": "^0.2.0",
-    "jade": "^1.11.0",
     "nodemon": "^1.15.1"
   }
 }

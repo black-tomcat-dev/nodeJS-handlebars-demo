@@ -14,12 +14,10 @@ exports.city = function(req, res) {
       city = "madrid";
       cityLabel = "Madrid";
     }
-    var cityURL =
-      "https://pixabay.com/api/?key=8158793-b6b28f3581a06e835f99844f5&q=" +
-      city +
-      "&image_type=photo";
+    var city =
+      
     res.render("city", {
-      City: cityURL,
+      City: city,
       Label: cityLabel
     });
   }
